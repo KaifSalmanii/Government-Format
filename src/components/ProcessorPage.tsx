@@ -227,8 +227,8 @@ export function ProcessorPage({ doc, agency, onStartOver }: Props) {
                 guides={true}
                 viewMode={1}
                 dragMode="move"
-                cropBoxMovable={false} // Fixed Crop Box (can't move the box)
-                cropBoxResizable={false} // Fixed Crop Box (can't resize the box)
+                cropBoxMovable={false} // Fixed Crop Box
+                cropBoxResizable={false} // Fixed Crop Box
                 toggleDragModeOnDblclick={false}
                 background={false}
                 responsive={true}
